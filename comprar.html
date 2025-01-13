@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/comprar.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="icones/Rideron.png" alt="Rideron Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="link-pag">
+        <h2>Veículo</h2>
+        <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        
+    
+        <div class="form-group">
+            <label for="valor">Valor Unitário:</label>
+            <input type="text" id="valor" name="valor" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="descricao">Descrição (opcional):</label>
+            <input type="text" id="descricao" name="descricao">
+        </div>
+    
+        <!-- comprar ou alugar opção -->
+        <div class="form-group comprar-alugar">
+            <label for="comprar">Comprar:</label>
+            <input type="radio" id="comprar" name="escolha" value="comprar" required>
+            
+            <label for="alugar">Alugar:</label>
+            <input type="radio" id="alugar" name="escolha" value="alugar" required>
+        </div>
+        
+    </section>
+    
+
+    <div class="action-buttons">
+        <a href="index.html"><button class="voltar">Voltar</button></a>
+        <button class="proximo">Proximo</button>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Rideron. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

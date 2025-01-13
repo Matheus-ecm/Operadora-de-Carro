@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rideron</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="icones/Rideron.png" alt="Rideron Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">Sobre nós</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#cars">Nossos carros</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Bem-vindo a Rideron</h1>
+            <p>O lugar mais confiável para aluguel e compras de carros.</p>
+            <button>Saiba Mais</button>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Sobre Nós</h2>
+            <p>A Rideron oferece excelência em aluguel e vendas de carros há mais de uma década. Priorizamos a satisfação do cliente com veículos de alta qualidade.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Nossos Serviços</h2>
+            <div class="service">
+                <img src="assets/Car Rental.png" alt="Aluguel">
+                <h3>Aluguel de Carros</h3>
+                <p>Escolha entre uma ampla variedade de veículos para aluguel de curto ou longo prazo.</p>
+            </div>
+            <div class="service">
+                <img src="assets/Car Sales.png" alt="Vendas de carros">
+                <h3>Vendas de carros</h3>
+                <p>Encontre o seu próximo carro em nossa ampla seleção de veículos.</p>
+            </div>
+            <div class="service">
+                <img src="assets/Manutenção.png" alt="Manutenção">
+                <h3>Manutenção</h3>
+                <p>Mantenha seu carro nas melhores condições com nossos serviços de manutenção.</p>
+            </div>
+        </section>
+
+        <section id="cars" class="cars">
+            <h2>Nossos Carros</h2>
+            <div class="car">
+                <a href="sedan-detalhes.html"><img src="assets/Luxury Sedan.png" alt="Sedan"></a>
+                <h3><a href="sedan-detalhes.html">Luxury Sedan</a></h3>
+                <p>Confortável para suas viagens do dia a dia.</p>
+            </div>
+
+            <div class="car">
+                <a href="suv-detalhes.html"><img src="assets/SUV.png" alt="SUV"></a>
+                <h3><a href="suv-detalhes.html">Spacious SUV</a></h3>
+                <p>Perfeito para viagens em família.</p>
+            </div>
+
+            <div class="car">
+                <a href="sports-detalhes.html"><img src="assets/Sports Car.png" alt="Sports Car"></a>
+                <h3><a href="sports-detalhes.html">Sports Car</a></h3>
+                <p>Experimente a velocidade como nunca antes.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contate-nos</h2>
+            <p>Tem dúvidas ou precisa de ajuda? Entre em contato conosco agora mesmo!</p>
+            <br>
+            <form action="#" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Rideron. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
