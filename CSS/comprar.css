@@ -1,0 +1,78 @@
+.link-pag {
+    width: 1200px;
+    height: 500px;
+    margin: 20px auto; /* Centraliza horizontalmente */
+    padding: 20px;
+    background-color: #f4f7f9; /*f4f7f9*/
+    border-radius: 8px;
+}
+
+.link-pag h2 {
+    margin-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+}
+
+input[type="text"] {
+    width: 100%; /* Campo preenche a largura disponível */
+    height: 40px;
+}
+
+label {
+    display: block; /* Garante que o label fique acima do input */
+    margin-bottom: 5px; /* Espaçamento do label para o input */
+}
+
+.comprar-alugar {
+    display: flex; /* Organiza os elementos em linha */
+    align-items: center; /* Alinha verticalmente ao centro */
+    gap: 10px; /* Espaço entre os elementos */
+}
+
+.comprar-alugar label {
+    margin: 0; /* Remove margens desnecessárias */
+}
+
+input[type="radio"] {
+    margin-left: 5px; /* Adiciona espaço entre o texto do label e o botão de opção */
+}
+
+
+/* bottoes */
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between; /* Alinha os botões nas extremidades */
+    align-items: center; /* Opcional: alinha verticalmente os botões */
+    padding: 0 20px; /* Opcional: adiciona espaço nas bordas do contêiner */
+    margin-bottom: 10px;
+}
+
+.voltar, .proximo {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.voltar {
+    background-color: #f4a261;
+    color: #fff;
+}
+
+.voltar:hover {
+    background-color: #e07a5f;
+}
+
+.proximo {
+    background-color: #333;
+    color: #fff;
+}
+
+.proximo:hover {
+    background-color: #222;
+}

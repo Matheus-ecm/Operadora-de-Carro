@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #f4a261;
+}
+
+/* logo class */
+.logo {
+    width: 200px;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #f4a261;
+    color: #fff;
+    padding: 100px 20px;
+}
+
+.hero button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #222;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+
+    /* h2{
+        margin-top: 100px;
+        margin-right: 100px;
+    } */
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.services h2{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.service {
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+
+    img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/* Cars Section */
+.cars {
+    padding: 50px 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+.cars h2{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.car {
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+}
+
+.car h3:hover {
+    color: #e07a5f;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #f4a261;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #e07a5f;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
