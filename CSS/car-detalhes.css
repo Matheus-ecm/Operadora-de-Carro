@@ -141,6 +141,7 @@
     .car-specs ul {
         gap: 10px; /* Reduz o espaço entre os itens */
         justify-content: center; /* Garante centralização */
+        margin-right: 150px;
     }
 
     .car-specs li {
