@@ -197,8 +197,18 @@ img {
         max-width: 300px; /* Define um limite para imagens grandes */
     }
 
-    .services h2, .cars h2{
-        margin-left: 90px;
-        margin-bottom: 40px;
+    .services h2, 
+    .cars h2 {
+        text-align: center;
+        margin: 0 auto 20px; /* Remove margens laterais e ajusta o espaçamento inferior */
+    }
+
+    .services, 
+    .cars {
+        padding: 20px; /* Ajusta o espaçamento para dispositivos móveis */
+    }
+
+    .nav {
+        display: none; /* Esconde o menu de navegação no celular */
     }
 }
