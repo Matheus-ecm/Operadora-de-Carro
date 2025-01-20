@@ -136,3 +136,9 @@
     color: #f4a261;
 }
 
+
+@media (max-width: 768px) {
+    .car-specs ul {
+        margin-left: -20px;
+    }
+}

@@ -85,10 +85,6 @@ img {
     text-align: center;
     background-color: #f9f9f9;
 
-    /* h2{
-        margin-top: 100px;
-        margin-right: 100px;
-    } */
 }
 
 /* Services Section */
@@ -183,4 +179,26 @@ img {
     padding: 20px;
     background-color: #333;
     color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .services, .cars {
+        flex-direction: column; /* Empilha os elementos */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .service, .car {
+        max-width: 100%; /* Permite que as divs ocupem toda a largura */
+    }
+
+    .service img, .car img {
+        width: 100%; /* Garante que as imagens se ajustem */
+        max-width: 300px; /* Define um limite para imagens grandes */
+    }
+
+    .services h2, .cars h2{
+        margin-left: 90px;
+        margin-bottom: 40px;
+    }
 }

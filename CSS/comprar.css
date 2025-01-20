@@ -76,3 +76,11 @@ input[type="radio"] {
 .proximo:hover {
     background-color: #222;
 }
+
+
+
+@media (max-width: 768px) {
+    .link-pag {
+        width: 90%; /* Campo preenche a largura disponível */
+    }
+}
