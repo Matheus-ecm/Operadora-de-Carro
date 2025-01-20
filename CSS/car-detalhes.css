@@ -141,7 +141,7 @@
     .car-specs ul {
         gap: 10px; /* Reduz o espaço entre os itens */
         justify-content: center; /* Centraliza os itens */
-        margin-left: 0; /* Remove a margem aplicada na versão desktop */
+        margin-left: 0; /* Remove margem esquerda */
     }
 
     .car-specs li {
@@ -158,9 +158,8 @@
         padding: 0;
         box-sizing: border-box;
     }
-    
+
     .car-details {
         padding: 10px;
     }
-    
 }
